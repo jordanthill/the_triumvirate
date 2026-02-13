@@ -18,14 +18,14 @@ export default function Home() {
           description="Jordan's corner of the site. Check out what they're building."
         />
         <SectionCard
-          name="Member 2"
-          href="/member2"
-          description="Member 2's space. Coming soon..."
+          name="Brian"
+          href="/brian"
+          description="Brian's corner of the site. Check out what he's building."
         />
         <SectionCard
-          name="Member 3"
-          href="/member3"
-          description="Member 3's space. Coming soon..."
+          name="James"
+          href="/james"
+          description="James's corner of the site. Check out what he's building."
         />
       </div>
     </div>

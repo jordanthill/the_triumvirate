@@ -1,11 +1,11 @@
-export default function Member2Page() {
+export default function JamesPage() {
   return (
     <div className="space-y-6">
-      <h1 className="text-3xl font-bold">Member 2&apos;s Section</h1>
+      <h1 className="text-3xl font-bold">James&apos;s Section</h1>
       <p className="text-gray-400">
         This is your space to build whatever you want. Edit this page at{" "}
         <code className="text-indigo-400 bg-gray-800 px-2 py-0.5 rounded text-sm">
-          src/app/member2/page.tsx
+          src/app/james/page.tsx
         </code>{" "}
         to get started.
       </p>
