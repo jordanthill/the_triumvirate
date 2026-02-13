@@ -1,4 +1,32 @@
 import Image from "next/image";
+import Link from "next/link";
+
+const projects = [
+  {
+    title: "Wordle",
+    href: "/jordan/wordle",
+    description: "The classic word-guessing game. Six tries to find the five-letter word.",
+    icon: (
+      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+      </svg>
+    ),
+    color: "from-emerald-500/20 to-teal-500/20",
+    iconColor: "text-emerald-400",
+  },
+  {
+    title: "Particle Trail",
+    href: "/jordan/particles",
+    description: "Interactive canvas with glowing particles that follow your cursor.",
+    icon: (
+      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 0 0-2.455 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
+      </svg>
+    ),
+    color: "from-indigo-500/20 to-purple-500/20",
+    iconColor: "text-indigo-400",
+  },
+];
 
 export default function JordanPage() {
   return (
@@ -15,25 +43,27 @@ export default function JordanPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/60 to-transparent" />
         <div className="absolute bottom-0 left-0 p-6">
           <h1 className="text-4xl font-bold text-white">Jordan&apos;s Section</h1>
-          <p className="text-gray-300 mt-1">Welcome to my corner of the site.</p>
+          <p className="text-gray-300 mt-1">Games, experiments, and interactive things.</p>
         </div>
       </div>
 
-      {/* Getting started prompt */}
-      <div className="p-8 rounded-2xl glass text-center space-y-4">
-        <div className="h-12 w-12 mx-auto rounded-xl bg-gradient-to-br from-indigo-500/20 to-purple-500/20 flex items-center justify-center text-indigo-400">
-          <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
-          </svg>
-        </div>
-        <h2 className="text-xl font-semibold text-white">Ready to build</h2>
-        <p className="text-gray-400 text-sm max-w-md mx-auto">
-          Edit{" "}
-          <code className="text-indigo-400 bg-white/5 px-2 py-0.5 rounded text-xs font-mono">
-            src/app/jordan/page.tsx
-          </code>{" "}
-          to replace this with whatever you want — a project showcase, a blog, a tool, anything.
-        </p>
+      {/* Projects grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {projects.map((project) => (
+          <Link
+            key={project.href}
+            href={project.href}
+            className="group p-6 rounded-2xl glass glass-hover transition-all duration-300"
+          >
+            <div className={`h-10 w-10 rounded-xl bg-gradient-to-br ${project.color} flex items-center justify-center ${project.iconColor} group-hover:scale-110 transition-transform mb-4`}>
+              {project.icon}
+            </div>
+            <h3 className="text-lg font-semibold text-white group-hover:text-indigo-400 transition-colors">
+              {project.title}
+            </h3>
+            <p className="mt-1 text-sm text-gray-500">{project.description}</p>
+          </Link>
+        ))}
       </div>
     </div>
   );
