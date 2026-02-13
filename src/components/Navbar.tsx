@@ -14,13 +14,18 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <nav className="bg-gray-900 border-b border-gray-800">
+    <nav className="sticky top-0 z-50 backdrop-blur-xl bg-gray-950/70 border-b border-white/5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link href="/" className="text-xl font-bold text-white tracking-tight">
-            The Triumvirate
+          <Link href="/" className="flex items-center gap-2 group">
+            <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white font-bold text-sm group-hover:shadow-lg group-hover:shadow-indigo-500/25 transition-shadow">
+              T
+            </div>
+            <span className="text-lg font-bold text-white tracking-tight">
+              The Triumvirate
+            </span>
           </Link>
-          <div className="flex space-x-1">
+          <div className="flex items-center gap-1 bg-white/5 rounded-full p-1">
             {sections.map((section) => {
               const isActive =
                 pathname === section.href ||
@@ -29,10 +34,10 @@ export default function Navbar() {
                 <Link
                   key={section.href}
                   href={section.href}
-                  className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+                  className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-200 ${
                     isActive
-                      ? "bg-indigo-600 text-white"
-                      : "text-gray-300 hover:bg-gray-800 hover:text-white"
+                      ? "bg-white text-gray-900 shadow-sm"
+                      : "text-gray-400 hover:text-white"
                   }`}
                 >
                   {section.name}
