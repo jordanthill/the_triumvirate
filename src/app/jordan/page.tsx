@@ -26,6 +26,42 @@ const projects = [
     color: "from-indigo-500/20 to-purple-500/20",
     iconColor: "text-indigo-400",
   },
+  {
+    title: "Flappy Bird",
+    href: "/jordan/flappy",
+    description: "Tap to flap through the pipes. How far can you get?",
+    icon: (
+      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
+      </svg>
+    ),
+    color: "from-yellow-500/20 to-orange-500/20",
+    iconColor: "text-yellow-400",
+  },
+  {
+    title: "2048",
+    href: "/jordan/game2048",
+    description: "Slide and merge tiles to reach 2048. Arrow keys or swipe to play.",
+    icon: (
+      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25a2.25 2.25 0 0 1-2.25-2.25v-2.25Z" />
+      </svg>
+    ),
+    color: "from-amber-500/20 to-red-500/20",
+    iconColor: "text-amber-400",
+  },
+  {
+    title: "Fractal Explorer",
+    href: "/jordan/fractals",
+    description: "Zoom into the infinite depths of the Mandelbrot set in real-time.",
+    icon: (
+      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607ZM10.5 7.5v6m3-3h-6" />
+      </svg>
+    ),
+    color: "from-cyan-500/20 to-blue-500/20",
+    iconColor: "text-cyan-400",
+  },
 ];
 
 export default function JordanPage() {
