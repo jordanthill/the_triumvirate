@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 
 // Chess piece types
@@ -125,12 +125,7 @@ export default function ChessPuzzlesPage() {
 
   const currentPuzzle = PUZZLES[currentPuzzleIndex];
 
-  // Initialize board
-  useEffect(() => {
-    resetPuzzle();
-  }, [currentPuzzleIndex]);
-
-  const resetPuzzle = () => {
+  const resetPuzzle = useCallback(() => {
     setBoard(currentPuzzle.board.map(row => [...row]));
     setCurrentTurn(currentPuzzle.playerColor);
     setSelectedSquare(null);
@@ -138,7 +133,12 @@ export default function ChessPuzzlesPage() {
     setGameStatus("playing");
     setMessage(`${currentPuzzle.description}`);
     setHighlightedSquares([]);
-  };
+  }, [currentPuzzle]);
+
+  // Initialize board
+  useEffect(() => {
+    resetPuzzle();
+  }, [resetPuzzle]);
 
   const loadNextPuzzle = () => {
     setCurrentPuzzleIndex((prev) => (prev + 1) % PUZZLES.length);
@@ -366,7 +366,7 @@ export default function ChessPuzzlesPage() {
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
           </svg>
-          Back to Brian's Section
+          Back to Brian&apos;s Section
         </Link>
         <h1 className="text-4xl font-bold text-white mb-2">Chess Puzzles</h1>
         <p className="text-gray-400">Solve tactical chess puzzles. Find the winning moves!</p>
