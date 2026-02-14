@@ -130,6 +130,64 @@ const RECIPE_DATABASE: Record<string, { appetizers: Recipe[]; mains: Recipe[] }>
         chemistryExplanation:
           "Both the bread and garlic undergo Maillard browning. The bread's proteins and sugars create a crispy, flavorful crust. The garlic's amino acids react with its natural sugars at high heat, transforming harsh, pungent allicin compounds into sweet, mellow, caramelized flavors.",
       },
+      {
+        name: "Crispy Roasted Brussels Sprouts",
+        ingredients: [
+          "1 lb Brussels sprouts, halved",
+          "3 tbsp olive oil",
+          "Salt and pepper",
+          "Parmesan cheese, grated",
+          "Balsamic glaze",
+        ],
+        instructions: [
+          "Preheat oven to 425°F",
+          "Toss Brussels sprouts with oil, salt, and pepper",
+          "Roast cut-side down for 25-30 minutes until deeply browned",
+          "Toss with fresh parmesan",
+          "Drizzle with balsamic glaze before serving",
+        ],
+        chemistryExplanation:
+          "The cut surfaces of Brussels sprouts undergo intense Maillard browning when in direct contact with the hot pan. Natural sugars and amino acids react at high heat, creating hundreds of new flavor compounds. This transforms bitter, sulfurous sprouts into sweet, nutty, caramelized bites with crispy browned edges.",
+      },
+      {
+        name: "Grilled Shrimp Skewers",
+        ingredients: [
+          "1 lb large shrimp, peeled and deveined",
+          "2 tbsp olive oil",
+          "1 tbsp paprika",
+          "1 tsp garlic powder",
+          "Salt and pepper",
+          "Lemon wedges",
+        ],
+        instructions: [
+          "Thread shrimp onto skewers",
+          "Brush with olive oil and season with spices",
+          "Grill over high heat 2-3 minutes per side",
+          "Look for char marks and pink color",
+          "Serve immediately with lemon wedges",
+        ],
+        chemistryExplanation:
+          "Shrimp proteins denature and brown simultaneously on the grill. The high heat (400°F+) creates Maillard browning on the surface while the interior cooks gently. The char marks are concentrated areas where Maillard products form most intensely, creating smoky, savory notes.",
+      },
+      {
+        name: "Roasted Spiced Nuts",
+        ingredients: [
+          "2 cups mixed nuts",
+          "2 tbsp butter, melted",
+          "2 tbsp soy sauce",
+          "1 tbsp brown sugar",
+          "1 tsp cayenne pepper",
+        ],
+        instructions: [
+          "Preheat oven to 350°F",
+          "Melt butter with soy sauce and brown sugar",
+          "Toss nuts with the mixture and cayenne",
+          "Roast for 15-20 minutes, stirring occasionally",
+          "Let cool to crisp up",
+        ],
+        chemistryExplanation:
+          "Nuts contain both proteins and sugars that brown beautifully through the Maillard reaction. The soy sauce adds additional amino acids (glutamates), intensifying the browning and umami flavors. The combination of nut proteins, added sugars, and high heat creates deeply savory, complex flavors.",
+      },
     ],
     mains: [
       {
@@ -175,6 +233,48 @@ const RECIPE_DATABASE: Record<string, { appetizers: Recipe[]; mains: Recipe[] }>
         chemistryExplanation:
           "The chicken skin undergoes intense Maillard browning in the hot oven. The proteins in the skin react with naturally present sugars and rendered fat, creating a deeply flavored, crispy exterior. The dry heat allows moisture to evaporate, concentrating the reaction at the surface and preventing steaming, which would inhibit browning.",
       },
+      {
+        name: "Seared Pork Chops with Pan Sauce",
+        ingredients: [
+          "4 thick-cut pork chops",
+          "2 tbsp vegetable oil",
+          "1 cup chicken stock",
+          "2 tbsp butter",
+          "Fresh sage leaves",
+          "Salt and pepper",
+        ],
+        instructions: [
+          "Season pork chops generously with salt and pepper",
+          "Sear in hot pan 4-5 minutes per side until deeply browned",
+          "Remove chops and rest",
+          "Deglaze pan with chicken stock, scraping up brown bits",
+          "Reduce sauce, mount with butter and sage",
+          "Serve sauce over chops",
+        ],
+        chemistryExplanation:
+          "The pork chops develop a beautiful Maillard crust where proteins and sugars create complex flavors. The fond (brown bits) left in the pan is concentrated Maillard compounds—hundreds of savory molecules that dissolve into the sauce, creating rich, meaty depth that amplifies the pork's natural flavors.",
+      },
+      {
+        name: "Classic Beef Burgers",
+        ingredients: [
+          "1.5 lbs ground beef (80/20)",
+          "Salt and pepper",
+          "4 burger buns",
+          "Cheese slices",
+          "Lettuce, tomato, onion",
+          "Condiments of choice",
+        ],
+        instructions: [
+          "Form beef into 4 patties, season generously",
+          "Grill or pan-fry over high heat 3-4 minutes per side",
+          "Don't press down on the patties!",
+          "Add cheese in the last minute",
+          "Toast buns lightly",
+          "Assemble with toppings",
+        ],
+        chemistryExplanation:
+          "Ground beef has maximum surface area exposed for Maillard reaction. The high heat of the grill creates a deeply browned crust packed with hundreds of savory flavor compounds. The reaction between amino acids and sugars creates the characteristic 'grilled' flavor. The char adds additional carbonized notes.",
+      },
     ],
   },
   caramelization: {
@@ -200,6 +300,67 @@ const RECIPE_DATABASE: Record<string, { appetizers: Recipe[]; mains: Recipe[] }>
         ],
         chemistryExplanation:
           "Pure caramelization occurs as the onions' natural sugars (sucrose, fructose, glucose) break down under prolonged heat. Above 320°F, sugar molecules decompose and recombine into hundreds of new compounds, creating sweet, bitter, and nutty flavors. The brown color comes from polymers formed during this process. No proteins are involved—this is purely sugar chemistry.",
+      },
+      {
+        name: "Roasted Carrot Soup",
+        ingredients: [
+          "2 lbs carrots, chopped",
+          "1 onion, diced",
+          "4 cups vegetable stock",
+          "1/2 cup cream",
+          "2 tbsp honey",
+          "Ground cumin",
+          "Salt and pepper",
+        ],
+        instructions: [
+          "Roast carrots at 425°F for 30-35 minutes until caramelized",
+          "Sauté onion in a pot",
+          "Add roasted carrots and stock, simmer 10 minutes",
+          "Blend until smooth",
+          "Stir in cream and honey, season with cumin",
+        ],
+        chemistryExplanation:
+          "Carrots contain high levels of natural sugars that caramelize beautifully when roasted at high heat. The sugar molecules break down and create deep, sweet, complex flavors that transform the soup from simple to sophisticated. The honey adds additional caramelized notes.",
+      },
+      {
+        name: "Candied Pecans",
+        ingredients: [
+          "2 cups pecan halves",
+          "1/2 cup brown sugar",
+          "2 tbsp butter",
+          "1 tsp cinnamon",
+          "1/4 tsp cayenne",
+          "Pinch of salt",
+        ],
+        instructions: [
+          "Melt butter in pan over medium heat",
+          "Add brown sugar and stir until dissolved",
+          "Add pecans, cinnamon, cayenne",
+          "Cook 5-7 minutes, stirring constantly",
+          "Spread on parchment to cool",
+        ],
+        chemistryExplanation:
+          "The brown sugar undergoes caramelization as it melts and heats above 320°F. The sugar molecules decompose and reform into hundreds of new compounds, creating complex sweet and bitter notes. The pecans toast while being coated, adding nutty depth.",
+      },
+      {
+        name: "Balsamic Roasted Figs with Cheese",
+        ingredients: [
+          "12 fresh figs, halved",
+          "3 tbsp balsamic vinegar",
+          "2 tbsp honey",
+          "Goat cheese or blue cheese",
+          "Walnuts, chopped",
+          "Fresh thyme",
+        ],
+        instructions: [
+          "Preheat oven to 400°F",
+          "Place figs cut-side up on baking sheet",
+          "Drizzle with balsamic and honey",
+          "Roast 15-20 minutes until caramelized",
+          "Top with crumbled cheese and walnuts",
+        ],
+        chemistryExplanation:
+          "Fresh figs contain high levels of natural sugars that caramelize in the oven's heat. The honey and balsamic vinegar also undergo caramelization, creating layers of sweet-tart complexity. The heat concentrates the sugars and creates new aromatic compounds.",
       },
     ],
     mains: [
@@ -243,6 +404,26 @@ const RECIPE_DATABASE: Record<string, { appetizers: Recipe[]; mains: Recipe[] }>
         ],
         chemistryExplanation:
           "Honey, being primarily fructose and glucose, caramelizes beautifully in the oven's heat. The sugars break down and form new flavor compounds, creating a glossy, deeply flavored crust. The repeated glazing layers these caramelized sugars, building complexity. Some Maillard reaction also occurs between the honey and the pork's proteins.",
+      },
+      {
+        name: "Maple-Glazed Salmon",
+        ingredients: [
+          "4 salmon fillets",
+          "1/4 cup pure maple syrup",
+          "2 tbsp soy sauce",
+          "1 clove garlic, minced",
+          "1 tsp grated ginger",
+          "Sesame seeds",
+        ],
+        instructions: [
+          "Mix maple syrup, soy sauce, garlic, and ginger",
+          "Brush mixture on salmon fillets",
+          "Broil for 8-10 minutes, basting every 3 minutes",
+          "Watch carefully to prevent burning",
+          "Sprinkle with sesame seeds before serving",
+        ],
+        chemistryExplanation:
+          "Maple syrup's concentrated sugars (primarily sucrose and fructose) caramelize under the broiler's intense heat. The sugars decompose and recombine above 320°F, creating deep, complex sweet-savory notes. The soy sauce adds umami that complements the caramelization, while repeated basting builds layers of caramelized glaze.",
       },
     ],
   },
@@ -537,6 +718,47 @@ const RECIPE_DATABASE: Record<string, { appetizers: Recipe[]; mains: Recipe[] }>
         chemistryExplanation:
           "Polenta showcases starch gelatinization perfectly. Corn starch granules are crystalline and indigestible when raw. As they heat in water above 158°F, the granules absorb water and swell dramatically (up to 30x their size). The crystalline structure breaks down, releasing amylose and amylopectin molecules that form a thick gel. Continued cooking and stirring further breaks down the granules, creating a creamy texture. Cooling sets the gel as starch molecules align and form hydrogen bonds.",
       },
+      {
+        name: "French Onion Soup",
+        ingredients: [
+          "4 large onions, sliced",
+          "4 cups beef stock",
+          "2 tbsp flour",
+          "2 tbsp butter",
+          "French bread, toasted",
+          "Gruyere cheese",
+        ],
+        instructions: [
+          "Caramelize onions slowly in butter",
+          "Sprinkle flour over onions, stir for 2 minutes",
+          "Add hot beef stock gradually, whisking",
+          "Simmer 20 minutes",
+          "Ladle into bowls, top with bread and cheese",
+          "Broil until cheese melts",
+        ],
+        chemistryExplanation:
+          "The flour undergoes gelatinization when combined with the hot stock. Starch granules absorb the liquid and swell, thickening the soup. The whisking ensures even distribution, preventing lumps. The gelatinized starch creates the soup's characteristic body and mouth-feel.",
+      },
+      {
+        name: "Creamy Mashed Potatoes",
+        ingredients: [
+          "3 lbs russet potatoes",
+          "1/2 cup butter",
+          "1 cup hot milk",
+          "Salt and pepper",
+          "Chives for garnish",
+        ],
+        instructions: [
+          "Boil potatoes until fork-tender",
+          "Drain and return to pot",
+          "Mash while hot",
+          "Stir in butter until melted",
+          "Gradually add hot milk while stirring",
+          "Season and garnish with chives",
+        ],
+        chemistryExplanation:
+          "Potato starch granules gelatinize during boiling, absorbing water and swelling. When mashed while hot, the gelatinized starch releases and creates a creamy texture. Adding hot milk and butter while stirring emulsifies the starch, creating smooth, fluffy mashed potatoes. Overworking releases too much starch, making them gluey.",
+      },
     ],
     mains: [
       {
@@ -583,6 +805,25 @@ const RECIPE_DATABASE: Record<string, { appetizers: Recipe[]; mains: Recipe[] }>
         chemistryExplanation:
           "Risotto relies on controlled starch gelatinization. Arborio rice has high amylopectin content. The constant stirring and gradual liquid addition cause the outer starch granules to burst, releasing amylopectin into the cooking liquid. This creates the characteristic creamy, slightly sticky texture. The rice grains remain al dente at the center because the starch there gelatinizes more slowly. The released starch acts as a natural thickener—no cream needed!",
       },
+      {
+        name: "Classic Gravy with Turkey",
+        ingredients: [
+          "Turkey drippings",
+          "1/4 cup flour",
+          "2 cups turkey or chicken stock",
+          "Salt and pepper",
+          "Fresh herbs",
+        ],
+        instructions: [
+          "Pour turkey drippings into a pan, leaving 1/4 cup fat",
+          "Whisk flour into fat over medium heat for 2-3 minutes",
+          "Gradually whisk in hot stock",
+          "Simmer, stirring constantly, until thickened (5-7 minutes)",
+          "Season with salt, pepper, and fresh herbs",
+        ],
+        chemistryExplanation:
+          "Gravy is made through starch gelatinization. The roux (flour cooked in fat) contains starch granules coated in fat. When hot stock is added, the granules absorb liquid and swell at around 180°F. Amylose and amylopectin leach out, creating a network that traps liquid and thickens the gravy. The fat prevents the sauce from becoming gluey by limiting starch bonding.",
+      },
     ],
   },
   enzymatic: {
@@ -605,6 +846,45 @@ const RECIPE_DATABASE: Record<string, { appetizers: Recipe[]; mains: Recipe[] }>
         ],
         chemistryExplanation:
           "Apples contain the enzyme polyphenol oxidase (PPO), which catalyzes the oxidation of phenolic compounds when cells are damaged (by cutting). This produces brown-colored melanins—the same pigments in our skin. Lemon juice prevents this in two ways: its acidity denatures the PPO enzyme (enzymes are proteins), and ascorbic acid (vitamin C) acts as a reducing agent, preferentially reacting with oxygen before it can oxidize the phenols.",
+      },
+      {
+        name: "Avocado Toast with Lime",
+        ingredients: [
+          "2 ripe avocados",
+          "Juice of 1 lime",
+          "4 slices bread, toasted",
+          "Red pepper flakes",
+          "Sea salt",
+          "Cherry tomatoes",
+        ],
+        instructions: [
+          "Mash avocados with lime juice immediately",
+          "Toast bread until golden",
+          "Spread avocado mixture on toast",
+          "Top with halved cherry tomatoes",
+          "Sprinkle with salt and red pepper flakes",
+        ],
+        chemistryExplanation:
+          "Avocados also contain polyphenol oxidase that causes enzymatic browning when exposed to oxygen. The lime juice's acidity denatures the enzyme and its vitamin C prevents oxidation, keeping the avocado bright green. This is the same enzymatic process that causes guacamole to turn brown if left exposed to air.",
+      },
+      {
+        name: "Fresh Pear and Arugula Salad",
+        ingredients: [
+          "2 pears, sliced",
+          "Lemon juice",
+          "Arugula",
+          "Pecans, toasted",
+          "Gorgonzola cheese",
+          "Honey vinaigrette",
+        ],
+        instructions: [
+          "Slice pears and toss immediately with lemon juice",
+          "Toast pecans",
+          "Combine arugula, pears, pecans, and gorgonzola",
+          "Drizzle with honey vinaigrette",
+        ],
+        chemistryExplanation:
+          "Like apples, pears contain polyphenol oxidase enzymes that cause enzymatic browning. The enzyme catalyzes the oxidation of phenolic compounds in the pear's cells when damaged by cutting. Lemon juice prevents browning through acid denaturation of the enzyme and vitamin C's antioxidant properties.",
       },
     ],
     mains: [
