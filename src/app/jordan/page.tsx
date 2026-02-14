@@ -75,6 +75,19 @@ const projects = [
     color: "from-green-500/20 to-emerald-500/20",
     iconColor: "text-green-400",
   },
+  {
+    title: "Location Story",
+    href: "/jordan/location-story",
+    description: "Upload Google location history and play a timeline of where you've been.",
+    icon: (
+      <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 9a2.25 2.25 0 1 0 0-4.5A2.25 2.25 0 0 0 12 9Z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 21c4.5-4.69 6.75-8.184 6.75-10.5a6.75 6.75 0 1 0-13.5 0c0 2.316 2.25 5.81 6.75 10.5Z" />
+      </svg>
+    ),
+    color: "from-sky-500/20 to-indigo-500/20",
+    iconColor: "text-sky-400",
+  },
 ];
 
 const visualHighlights = [
