@@ -1,0 +1,436 @@
+[
+    {
+        "date":  "2025-12-15",
+        "restingHeartRate":  58,
+        "activeCalories":  690,
+        "sleepHours":  7.38,
+        "steps":  9100
+    },
+    {
+        "date":  "2025-12-16",
+        "restingHeartRate":  58,
+        "activeCalories":  701,
+        "sleepHours":  7.51,
+        "steps":  9095
+    },
+    {
+        "date":  "2025-12-17",
+        "restingHeartRate":  58,
+        "activeCalories":  711,
+        "sleepHours":  7.62,
+        "steps":  9039
+    },
+    {
+        "date":  "2025-12-18",
+        "restingHeartRate":  59,
+        "activeCalories":  721,
+        "sleepHours":  7.7,
+        "steps":  8936
+    },
+    {
+        "date":  "2025-12-19",
+        "restingHeartRate":  59,
+        "activeCalories":  730,
+        "sleepHours":  7.76,
+        "steps":  8793
+    },
+    {
+        "date":  "2025-12-20",
+        "restingHeartRate":  60,
+        "activeCalories":  702,
+        "sleepHours":  8.15,
+        "steps":  7420
+    },
+    {
+        "date":  "2025-12-21",
+        "restingHeartRate":  60,
+        "activeCalories":  708,
+        "sleepHours":  8.15,
+        "steps":  7228
+    },
+    {
+        "date":  "2025-12-22",
+        "restingHeartRate":  59,
+        "activeCalories":  748,
+        "sleepHours":  7.77,
+        "steps":  8232
+    },
+    {
+        "date":  "2025-12-23",
+        "restingHeartRate":  59,
+        "activeCalories":  750,
+        "sleepHours":  7.71,
+        "steps":  8042
+    },
+    {
+        "date":  "2025-12-24",
+        "restingHeartRate":  59,
+        "activeCalories":  751,
+        "sleepHours":  7.63,
+        "steps":  7872
+    },
+    {
+        "date":  "2025-12-25",
+        "restingHeartRate":  59,
+        "activeCalories":  750,
+        "sleepHours":  7.52,
+        "steps":  7733
+    },
+    {
+        "date":  "2025-12-26",
+        "restingHeartRate":  58,
+        "activeCalories":  747,
+        "sleepHours":  7.39,
+        "steps":  7635
+    },
+    {
+        "date":  "2025-12-27",
+        "restingHeartRate":  59,
+        "activeCalories":  708,
+        "sleepHours":  7.61,
+        "steps":  6385
+    },
+    {
+        "date":  "2025-12-28",
+        "restingHeartRate":  59,
+        "activeCalories":  703,
+        "sleepHours":  7.46,
+        "steps":  6386
+    },
+    {
+        "date":  "2025-12-29",
+        "restingHeartRate":  58,
+        "activeCalories":  732,
+        "sleepHours":  6.97,
+        "steps":  7641
+    },
+    {
+        "date":  "2025-12-30",
+        "restingHeartRate":  57,
+        "activeCalories":  725,
+        "sleepHours":  6.83,
+        "steps":  7748
+    },
+    {
+        "date":  "2025-12-31",
+        "restingHeartRate":  57,
+        "activeCalories":  718,
+        "sleepHours":  6.7,
+        "steps":  7900
+    },
+    {
+        "date":  "2026-01-01",
+        "restingHeartRate":  57,
+        "activeCalories":  711,
+        "sleepHours":  6.59,
+        "steps":  8091
+    },
+    {
+        "date":  "2026-01-02",
+        "restingHeartRate":  56,
+        "activeCalories":  704,
+        "sleepHours":  6.5,
+        "steps":  8311
+    },
+    {
+        "date":  "2026-01-03",
+        "restingHeartRate":  57,
+        "activeCalories":  664,
+        "sleepHours":  6.79,
+        "steps":  7348
+    },
+    {
+        "date":  "2026-01-04",
+        "restingHeartRate":  57,
+        "activeCalories":  659,
+        "sleepHours":  6.76,
+        "steps":  7588
+    },
+    {
+        "date":  "2026-01-05",
+        "restingHeartRate":  56,
+        "activeCalories":  691,
+        "sleepHours":  6.4,
+        "steps":  9020
+    },
+    {
+        "date":  "2026-01-06",
+        "restingHeartRate":  55,
+        "activeCalories":  689,
+        "sleepHours":  6.43,
+        "steps":  9231
+    },
+    {
+        "date":  "2026-01-07",
+        "restingHeartRate":  55,
+        "activeCalories":  689,
+        "sleepHours":  6.48,
+        "steps":  9410
+    },
+    {
+        "date":  "2026-01-08",
+        "restingHeartRate":  55,
+        "activeCalories":  691,
+        "sleepHours":  6.57,
+        "steps":  9546
+    },
+    {
+        "date":  "2026-01-09",
+        "restingHeartRate":  55,
+        "activeCalories":  694,
+        "sleepHours":  6.67,
+        "steps":  9635
+    },
+    {
+        "date":  "2026-01-10",
+        "restingHeartRate":  56,
+        "activeCalories":  665,
+        "sleepHours":  7.15,
+        "steps":  8470
+    },
+    {
+        "date":  "2026-01-11",
+        "restingHeartRate":  56,
+        "activeCalories":  672,
+        "sleepHours":  7.28,
+        "steps":  8453
+    },
+    {
+        "date":  "2026-01-12",
+        "restingHeartRate":  55,
+        "activeCalories":  715,
+        "sleepHours":  7.08,
+        "steps":  9585
+    },
+    {
+        "date":  "2026-01-13",
+        "restingHeartRate":  56,
+        "activeCalories":  724,
+        "sleepHours":  7.22,
+        "steps":  9471
+    },
+    {
+        "date":  "2026-01-14",
+        "restingHeartRate":  56,
+        "activeCalories":  734,
+        "sleepHours":  7.36,
+        "steps":  9320
+    },
+    {
+        "date":  "2026-01-15",
+        "restingHeartRate":  56,
+        "activeCalories":  745,
+        "sleepHours":  7.49,
+        "steps":  9142
+    },
+    {
+        "date":  "2026-01-16",
+        "restingHeartRate":  56,
+        "activeCalories":  756,
+        "sleepHours":  7.6,
+        "steps":  8948
+    },
+    {
+        "date":  "2026-01-17",
+        "restingHeartRate":  58,
+        "activeCalories":  732,
+        "sleepHours":  8.04,
+        "steps":  7552
+    },
+    {
+        "date":  "2026-01-18",
+        "restingHeartRate":  58,
+        "activeCalories":  742,
+        "sleepHours":  8.11,
+        "steps":  7366
+    },
+    {
+        "date":  "2026-01-19",
+        "restingHeartRate":  57,
+        "activeCalories":  786,
+        "sleepHours":  7.79,
+        "steps":  8402
+    },
+    {
+        "date":  "2026-01-20",
+        "restingHeartRate":  57,
+        "activeCalories":  794,
+        "sleepHours":  7.8,
+        "steps":  8272
+    },
+    {
+        "date":  "2026-01-21",
+        "restingHeartRate":  57,
+        "activeCalories":  801,
+        "sleepHours":  7.77,
+        "steps":  8185
+    },
+    {
+        "date":  "2026-01-22",
+        "restingHeartRate":  57,
+        "activeCalories":  806,
+        "sleepHours":  7.72,
+        "steps":  8147
+    },
+    {
+        "date":  "2026-01-23",
+        "restingHeartRate":  57,
+        "activeCalories":  809,
+        "sleepHours":  7.64,
+        "steps":  8161
+    },
+    {
+        "date":  "2026-01-24",
+        "restingHeartRate":  58,
+        "activeCalories":  776,
+        "sleepHours":  7.89,
+        "steps":  7029
+    },
+    {
+        "date":  "2026-01-25",
+        "restingHeartRate":  58,
+        "activeCalories":  775,
+        "sleepHours":  7.76,
+        "steps":  7147
+    },
+    {
+        "date":  "2026-01-26",
+        "restingHeartRate":  57,
+        "activeCalories":  808,
+        "sleepHours":  7.28,
+        "steps":  8509
+    },
+    {
+        "date":  "2026-01-27",
+        "restingHeartRate":  56,
+        "activeCalories":  805,
+        "sleepHours":  7.13,
+        "steps":  8708
+    },
+    {
+        "date":  "2026-01-28",
+        "restingHeartRate":  56,
+        "activeCalories":  800,
+        "sleepHours":  6.99,
+        "steps":  8933
+    },
+    {
+        "date":  "2026-01-29",
+        "restingHeartRate":  56,
+        "activeCalories":  794,
+        "sleepHours":  6.85,
+        "steps":  9172
+    },
+    {
+        "date":  "2026-01-30",
+        "restingHeartRate":  56,
+        "activeCalories":  787,
+        "sleepHours":  6.72,
+        "steps":  9412
+    },
+    {
+        "date":  "2026-01-31",
+        "restingHeartRate":  56,
+        "activeCalories":  745,
+        "sleepHours":  6.96,
+        "steps":  8440
+    },
+    {
+        "date":  "2026-02-01",
+        "restingHeartRate":  56,
+        "activeCalories":  738,
+        "sleepHours":  6.86,
+        "steps":  8644
+    },
+    {
+        "date":  "2026-02-02",
+        "restingHeartRate":  54,
+        "activeCalories":  767,
+        "sleepHours":  6.45,
+        "steps":  10013
+    },
+    {
+        "date":  "2026-02-03",
+        "restingHeartRate":  54,
+        "activeCalories":  761,
+        "sleepHours":  6.41,
+        "steps":  10139
+    },
+    {
+        "date":  "2026-02-04",
+        "restingHeartRate":  54,
+        "activeCalories":  755,
+        "sleepHours":  6.4,
+        "steps":  10215
+    },
+    {
+        "date":  "2026-02-05",
+        "restingHeartRate":  54,
+        "activeCalories":  752,
+        "sleepHours":  6.42,
+        "steps":  10238
+    },
+    {
+        "date":  "2026-02-06",
+        "restingHeartRate":  54,
+        "activeCalories":  749,
+        "sleepHours":  6.47,
+        "steps":  10208
+    },
+    {
+        "date":  "2026-02-07",
+        "restingHeartRate":  54,
+        "activeCalories":  713,
+        "sleepHours":  6.9,
+        "steps":  8929
+    },
+    {
+        "date":  "2026-02-08",
+        "restingHeartRate":  54,
+        "activeCalories":  715,
+        "sleepHours":  7,
+        "steps":  8805
+    },
+    {
+        "date":  "2026-02-09",
+        "restingHeartRate":  53,
+        "activeCalories":  752,
+        "sleepHours":  6.77,
+        "steps":  9847
+    },
+    {
+        "date":  "2026-02-10",
+        "restingHeartRate":  53,
+        "activeCalories":  757,
+        "sleepHours":  6.91,
+        "steps":  9663
+    },
+    {
+        "date":  "2026-02-11",
+        "restingHeartRate":  53,
+        "activeCalories":  763,
+        "sleepHours":  7.05,
+        "steps":  9468
+    },
+    {
+        "date":  "2026-02-12",
+        "restingHeartRate":  54,
+        "activeCalories":  771,
+        "sleepHours":  7.2,
+        "steps":  9273
+    },
+    {
+        "date":  "2026-02-13",
+        "restingHeartRate":  54,
+        "activeCalories":  780,
+        "sleepHours":  7.34,
+        "steps":  9091
+    },
+    {
+        "date":  "2026-02-14",
+        "restingHeartRate":  55,
+        "activeCalories":  755,
+        "sleepHours":  7.82,
+        "steps":  7735
+    }
+]

@@ -77,10 +77,29 @@ const projects = [
   },
 ];
 
+const visualHighlights = [
+  "Resting heart rate trend with 7-day and 30-day smoothing windows.",
+  "Calories burned heatmap for quick consistency and intensity scanning.",
+  "Weekday versus weekend activity split to compare routine stability.",
+  "Percentile bands that show where the current week sits versus historical baseline.",
+];
+
+const keyInsights = [
+  "Lower resting heart rate tends to follow more consistent sleep timing.",
+  "Steady calorie burn across the week correlates with better recovery patterns.",
+  "Weekdays are more predictable, while weekends add higher variance in activity and sleep.",
+];
+
+const roadmapItems = [
+  "Build KPI-aligned feature tables with lag variables (sleep_t-1, sleep_t-2).",
+  "Run correlation and regression experiments across sleep, heart rate, and activity.",
+  "Ship model diagnostics and confidence intervals to avoid misleading conclusions.",
+  "Generate insight cards with effect sizes, sample size, and uncertainty ranges.",
+];
+
 export default function JordanPage() {
   return (
     <div className="space-y-10">
-      {/* Header with banner */}
       <div className="relative rounded-2xl overflow-hidden h-48">
         <Image
           src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=1200&h=400&fit=crop"
@@ -96,7 +115,91 @@ export default function JordanPage() {
         </div>
       </div>
 
-      {/* Projects grid */}
+      <section className="p-6 sm:p-8 rounded-2xl glass space-y-8">
+        <div className="space-y-3">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 text-indigo-300 text-xs font-medium border border-indigo-400/30">
+            Featured Project
+          </div>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white">Apple Health Analytics Dashboard</h2>
+          <p className="text-gray-300 max-w-3xl leading-relaxed">
+            A personal data app that transforms Apple Health exports into clean time-series insights for resting heart rate,
+            calories, activity, and recovery trends.
+          </p>
+          <div className="flex flex-wrap gap-2 pt-2 text-xs">
+            <span className="px-2.5 py-1 rounded-full border border-emerald-400/30 text-emerald-300 bg-emerald-500/10">Status: In Progress</span>
+            <span className="px-2.5 py-1 rounded-full border border-blue-400/30 text-blue-300 bg-blue-500/10">Role: Product + Engineering</span>
+            <span className="px-2.5 py-1 rounded-full border border-violet-400/30 text-violet-300 bg-violet-500/10">Focus: Data Pipeline + Visualization</span>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div className="p-5 rounded-2xl bg-white/[0.02] border border-white/10 space-y-3">
+            <h3 className="text-white font-semibold">What I Built</h3>
+            <ul className="space-y-2 text-sm text-gray-400 leading-relaxed">
+              <li>Ingested Apple Health XML export data into structured tables.</li>
+              <li>Normalized timestamps and units across metrics and sources.</li>
+              <li>Built daily and weekly aggregates for trend analysis.</li>
+              <li>Created interactive KPI views with rolling averages and filters.</li>
+            </ul>
+          </div>
+
+          <div className="p-5 rounded-2xl bg-white/[0.02] border border-white/10 space-y-3">
+            <h3 className="text-white font-semibold">Visual Highlights</h3>
+            <ul className="space-y-2 text-sm text-gray-400 leading-relaxed">
+              {visualHighlights.map((highlight) => (
+                <li key={highlight}>{highlight}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="p-5 rounded-2xl bg-white/[0.02] border border-white/10 space-y-3">
+            <h3 className="text-white font-semibold">Key Insights (Early)</h3>
+            <ul className="space-y-2 text-sm text-gray-400 leading-relaxed">
+              {keyInsights.map((insight) => (
+                <li key={insight}>{insight}</li>
+              ))}
+            </ul>
+          </div>
+
+          <div className="p-5 rounded-2xl bg-white/[0.02] border border-white/10 space-y-3">
+            <h3 className="text-white font-semibold">Roadmap</h3>
+            <ul className="space-y-2 text-sm text-gray-400 leading-relaxed">
+              {roadmapItems.map((item) => (
+                <li key={item}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap gap-3 pt-1">
+          <Link
+            href="/jordan/health"
+            className="px-4 py-2 rounded-full bg-white text-gray-900 text-sm font-medium hover:bg-gray-200 transition-colors"
+          >
+            View Project
+          </Link>
+          <a
+            href="https://github.com/jordanthill/the_triumvirate"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 rounded-full glass glass-hover text-sm text-gray-300 font-medium transition-all"
+          >
+            GitHub
+          </a>
+          <Link
+            href="/chat"
+            className="px-4 py-2 rounded-full glass glass-hover text-sm text-gray-300 font-medium transition-all"
+          >
+            Contact Jordan
+          </Link>
+        </div>
+      </section>
+
+      <div className="space-y-3">
+        <h2 className="text-2xl font-bold text-white">More Projects</h2>
+        <p className="text-gray-500">Playable experiments and interactive builds.</p>
+      </div>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         {projects.map((project) => (
           <Link
