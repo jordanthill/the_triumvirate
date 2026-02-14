@@ -164,7 +164,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-white">Shared</h2>
           <p className="text-gray-500">Community features for the whole crew.</p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <Link
             href="/chat"
             className="group p-6 rounded-2xl glass glass-hover transition-all duration-300"
@@ -200,6 +200,18 @@ export default function Home() {
             </div>
             <h3 className="text-lg font-semibold text-white group-hover:text-orange-400 transition-colors">This Day in History</h3>
             <p className="mt-1 text-sm text-gray-500">What happened on this day? Events, births, and more.</p>
+          </Link>
+          <Link
+            href="/crm"
+            className="group p-6 rounded-2xl glass glass-hover transition-all duration-300"
+          >
+            <div className="h-10 w-10 rounded-xl bg-gradient-to-br from-blue-500/20 to-cyan-500/20 flex items-center justify-center text-blue-400 group-hover:scale-110 transition-transform mb-4">
+              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+              </svg>
+            </div>
+            <h3 className="text-lg font-semibold text-white group-hover:text-blue-400 transition-colors">CRM</h3>
+            <p className="mt-1 text-sm text-gray-500">Manage contacts and track relationships with ease.</p>
           </Link>
         </div>
       </section>
