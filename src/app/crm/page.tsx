@@ -22,12 +22,19 @@ export default function CRMPage() {
   const [filterStatus, setFilterStatus] = useState<string>("all");
   const [searchTerm, setSearchTerm] = useState("");
 
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<{
+    name: string;
+    email: string;
+    company: string;
+    phone: string;
+    status: "lead" | "active" | "inactive";
+    notes: string;
+  }>({
     name: "",
     email: "",
     company: "",
     phone: "",
-    status: "lead" as const,
+    status: "lead",
     notes: "",
   });
 
