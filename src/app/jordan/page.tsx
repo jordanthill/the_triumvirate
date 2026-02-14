@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import ChatbotMascot from "@/components/ChatbotMascot";
 
 const projects = [
   {
@@ -113,6 +114,8 @@ export default function JordanPage() {
           </Link>
         ))}
       </div>
+
+      <ChatbotMascot />
     </div>
   );
 }
