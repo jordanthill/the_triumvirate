@@ -134,7 +134,7 @@ export default function Game2048Page() {
       const result = move(board, direction);
       if (!result.moved) return;
 
-      let newBoard = addRandom(result.board);
+      const newBoard = addRandom(result.board);
       const newScore = score + result.score;
       setBoard(newBoard);
       setScore(newScore);
